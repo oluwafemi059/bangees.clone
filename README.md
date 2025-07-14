@@ -40,7 +40,7 @@ bangee/
 bash
 Copy
 Edit
-git clone https://github.com/your-username/bangee.git
+git clone https://github.com/oluwafemi059/bangee.git
 cd bangee
 2. Run Locally
 Simply open the index.html file in your preferred browser:
