@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangee's Your Favorite Place</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+ <div class="header">
+   
+       <div class="navbar">
+                <img id="image" src="image/Bangees_3-10-removebg-preview.png" style="width: 150px; height: 100px;" >
+               
+               
+             <div class="navbar1">
+                <a href="http://">Our Story</a> 
+                <a href="http://">Our Menu</a>
+                <a href="http://"> Book  Reservation</a>
+                <a href="http://">Contact Us</a>
+            </div>
+            <div class="navbar2" id="nav2">
+               &#9776
+             </div>
+        </div>
+    
+
+
+    <div class="text">
+            <p>Welcome to Bangees cafe</p>
+            <h1>We Craft <span style="color:#ECBD47;">Nature's</span> Goodness into <br> <span style="color:#ECBD47 ;">Delicious </span> Food We Love to Share.</h1>
+            <div>  
+                <button class="btn">Explore Our Menu </button>
+                <button class="btnn">Book Reservation</button>
+            </div>
+    </div>
+</div>
+
+<div class="bodyi">
+   <div class="story">
+         <h2 class="happy">Our Story</h2>
+      <div class="happy25">
+          <p>Our journey started with a simple dream—to create a space where people could come together, relax, and enjoy life’s little moments. Ogbomosho is a city full of vibrant energy and culture, but we felt there was something missing: a place where students, indigenes and visitors could unwind, connect, and be inspired. That’s where the idea for Bangees Café was born.</p>
+          <p>What makes Bangees Café special? It’s the little details. From the warm lighting to the comfy seating, we’ve carefully crafted every part of the café to offer you a relaxing and beautiful space. Our interiors are a mix of modern and classic, with splashes of color and art. It’s the kind of place where you can snap a few great photos, but more importantly, feel at ease and truly yourself.</p>
+          <p>Beyond food and drinks, Bangees Café is about community. Ogbomosho has a special place in our hearts, and we wanted to build something that brings people together. Whether you’re a student working on a project, a professional taking a break, or someone just looking to relax, Bangees Café is your space.</p>
+       </div>
+   </div>
+   <div class="feliimg">
+        <img src="image/Frame-83-256x300.png" alt="">
+        <img src="image/Frame-84-256x300.png" alt="">
+        <img src="image/Frame-85-256x300.png" alt=""> 
+   </div>
+   <div class="feli">
+        <h2 class="temi">Our Menu</h2>
+      <div class="temi1" >
+          <p>At Bangees Café, we believe that food and drinks should be as comforting as they are exciting. That’s why we’ve crafted a menu that combines classic favorites with unique twists—so whether you’re here for your quick lunch, or a late-night treat, we’ve got something that’s just right for you.</p>
+          <p class="temip2">We’re passionate about using fresh, quality ingredients in everything we serve, and you’ll taste that passion in every bite and sip. Our menu is designed to satisfy your cravings, whatever the hour.</p>
+      </div>
+   </div>
+    <div class="line">
+        <hr>
+        <h2 class="drink">Drink Menu</h2>
+    </div>
+    <div class="lists" >
+      <div class="dotman1">
+        <ul class="list">
+         <li class="small" onclick="togglemenu('city')"> CHAMPAGNE <span>.</span>
+            <ul class="price" id="city">
+                <li  class="color"> Moet <span>_ _ _ _ _ _ _ _150,000</span></li>
+                <li  class="color"> Martini Rose <span>_ _ _ _ _ _ _ 35,000</span></li>
+            </ul>
+            </li>
+            <li class="small" onclick="togglemenu('cognacs')">COGNACS<span>.</span>  
+             <ul class="price" id="cognacs">
+                <li  class="color"> Hennessy vs <span>_ _ _ _ _ _ _ _75,000</span></li>
+                <li  class="color"> martell vs <span>_ _ _ _ _ _ _ _65,000</span></li>
+             </ul>
+            </li> 
+            <li class="small" onclick="togglemenu('spirit')">SPIRITS <span>.</span>  
+             <ul class="price" id="spirit">
+                <li  class="color">  Best Chocolate<span>_ _ _ _ _ _ _ _10,000</span></li>
+                <li  class="color"> skyy vodka <span>_ _ _ _ _ _ _ _20,000</span></li>
+             </ul>
+            </li>    
+            <li class="small" onclick="togglemenu('bitter')">BITTERS<span>.</span>  
+             <ul class="price" id="bitter">
+                <li  class="color"> monster <span>_ _ _ _ _ _ _ _80,000</span></li>
+                <li  class="color"> Bullet<span>_ _ _ _ _ _ _ _20,000</span></li>
+             </ul>
+            </li> 
+            <li class="small" onclick="togglemenu('whisky')">WHISKY<span>.</span> 
+             <ul class="price" id="whisky">
+                <li  class="color"> Mexico <span>_ _ _ _ _ _ _ _50,000</span></li>
+                <li  class="color"> dax <span>_ _ _ _ _ _ _ _10,000</span></li>
+             </ul>
+            </li>  
+            <li class="small" onclick="togglemenu('wine')">WHITE WINE <span>.</span> 
+             <ul class="price" id="wine">
+                <li  class="color"> Red Label <span>_ _ _ _ _ _ _ _10,000</span></li>
+                <li  class="color"> Black Bullet <span>_ _ _ _ _ _ _ _50,000</span></li>
+             </ul>
+            </li> 
+        </ul>
+     </div>
+     <div class="dotman2">
+        <ul class="list">
+            <li class="small" onclick="togglemenu('red')"> RED WINE <span>.</span>
+             <ul class="price" id="red">
+                <li class="color"> shot <span>_ _ _ _ _ _ _ _2,000</span></li>
+                <li class="color" >  oimeca<span>_ _ _ _ _ _ _ 4_0,000</span></li>
+             </ul>
+            </li>
+            <li class="small" onclick="togglemenu('rose')">ROSE WINE<span>.</span> 
+             <ul class="price" id="rose">
+                <li class="color">Black Label  <span>_ _ _ _ _ _ _ _40,000</span></li>
+                <li class="color">  fanta<span>_ _ _ _ _ _ _ _1,000</span></li>
+             </ul>
+            </li>  
+            <li class="small" onclick="togglemenu('cock')">COCKTAILS <span>.</span>
+             <ul class="price" id="cock">
+                <li class="color" >power horse  <span>_ _ _ _ _ _ _ _1,000</span></li>
+                <li class="color"> red bull <span>_ _ _ _ _ _ _ _6,000</span></li>
+             </ul>
+            </li>   
+            <li class="small" onclick="togglemenu('mock')">MOCKTAILS<span>.</span>
+             <ul class="price"id="mock"> 
+                <li class="color" > Bottle Water  <span>_ _ _ _ _ _ _ _1,500</span></li>
+                <li class="color" >  Pure water<span>_ _ _ _ _ _ _ _1,000</span></li>
+             </ul>
+            </li> 
+            <li class="small" onclick="togglemenu('tequila')">TEQUILA<span>.</span> 
+             <ul class="price" id="tequila">  
+                <li class="color"> sminorf <span>_ _ _ _ _ _ _ _5,000</span></li>
+                <li  class="color" > viju milk  <span>_ _ _ _ _ _ _ _5,000</span></li>
+             </ul>
+            </li>  
+            <li class="small" onclick="togglemenu('shake')">SHAKES <span>.</span>  
+             <ul class="price" id="shake">
+                <li  class="color"> schwepps <span>_ _ _ _ _ _ _ _7,000</span></li>
+                <li  class="color"> camine <span>_ _ _ _ _ _ _ _4,000</span></li>
+             </ul>
+            </li>  
+        </ul>
+     </div>
+     <div class="dotman3">
+        <ul class="list">
+            <li class="small" onclick="togglemenu('cream')"> CREAM LIQUEUR<span>.</span> 
+             <ul class="price"id="cream">
+                <li  class="color"> milk  <span>_ _ _ _ _ _ _ _10,000</span></li>
+                <li  class="color">butter<span>_ _ _ _ _ _ _ _10,000</span></li>
+             </ul>
+            </li>
+            <li class="small" onclick="togglemenu('rum')">RUM<span>.</span>  
+             <ul class="price" id="rum">
+                <li  class="color"> coke <span>_ _ _ _ _ _ _ _10,000</span></li>
+                <li  class="color">  Chocolate viju <span>_ _ _ _ _ _ _ _10,000</span></li>
+             </ul>
+            </li>
+            <li class="small" onclick="togglemenu('gin')">GIN <span>.</span> 
+             <ul class="price" id="gin">
+                <li  class="color" > wheat viju <span>_ _ _ _ _ _ _ _10,000</span></li>
+                <li  class="color"> lord <span>_ _ _ _ _ _ _ _10,000</span></li>
+             </ul>
+            </li> 
+            <li class="small" onclick="togglemenu('soft')">SOFT<span>.</span>
+             <ul class="price" id="soft">  
+                <li  class="color"> bgi fanta <span>_ _ _ _ _ _ _ _10,000</span></li>
+                <li  class="color"> bigi cola <span>_ _ _ _ _ _ _ _10,000</span></li>
+             </ul>
+            </li> 
+            <li class="small" onclick="togglemenu('beer')">BEER<span>.</span> 
+             <ul class="price" id="beer"> 
+                <li  class="color"> gin  <span>_ _ _ _ _ _ _ _10,000</span></li>
+                <li  class="color"> team <span>_ _ _ _ _ _ _ _10,000</span></li>
+             </ul>
+            </li> 
+        </ul>
+     </div>
+    </div>
+      <hr class="hr2">
+
+      
+<div>
+     <h2 class="food">FOOD MENU</h2>
+     <div class="all">
+     <div>
+        <ul class="allu">
+            <li>MAIN COURSE <span>.</span></li>
+        </ul>
+     </div>
+     <div>
+        <ul class="allu">
+            <li>PROTEIN <span>.</span></li>
+        </ul>
+     </div>
+     <div>
+        <ul class="allu">
+            <li>EXTRA <span>.</span></li>
+        </ul>
+     </div>
+   </div> 
+   <div class="foodmenu">
+      <h2 class="look">Looking for the perfect spot to host your next event?</h2>
+      <div>
+      <p class="lookp">We are more than just a place to grab a bite or drink—we’re a space where connections happen, celebrations come to life, and moments turn into lasting memories. Our space is designed to be versatile and welcoming, making it perfect for a wide range of gatherings.</p>
+      <button class="butbook">Book Reservation</button>
+     </div>
+    </div> 
+</div>
+
+<script src="./image/script.js"></script>
+</body>
+<script>
+
+const menuIcon = document.getElementById('nav2');
+const navLinks = document.getElementById('nav1');
+
+menuIcon.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+
+
+
+function togglemenu(id){
+        const element = document.getElementById(id);
+        element.classList.toggle('show');
+    }
+
+</script>
+
+
+</html>

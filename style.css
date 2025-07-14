@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(./image/Hero-10\ \(1\).webp);
+    width: auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    position: fixed;
+}
+.navbar1 a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+}
+.navbar1{
+    margin-top: 30px;
+}
+.navbar2{
+    display: none;
+  font-size:2rem ;
+  color: #ecbd47;
+  cursor: pointer;
+}
+.header::before{
+    content:'' ;
+    position: absolute;
+    background-color: rgb(0, 0,0,0.5);
+}
+.text p {
+    border : 1px solid #ecbd47;
+    font-size: 22px;
+    font-weight: 400;
+    color:black;
+    border-style: double;
+    width: 250px;
+    border-color: #ecbd47;
+    border-radius: 22px;
+    background-color: #fff;
+}
+.text h1{
+   font-size: 65px;
+   color: #fff;
+   line-height: 1.0; 
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.text{
+    padding: 140px 95px;
+}
+.btn{
+    border-radius: 13px;
+    background-color: #ecbd47;
+    border-style: none;
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btnn{
+    border-radius:13px ;
+    padding: 10px;
+    background: none;
+    font-weight: 600;
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+.btnn:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-style: none;
+}
+.bodyi{
+    background-color:#5f4934 ;
+    justify-content: center;
+    padding: 20px 40px;
+}
+.story{
+    display: flex;
+     gap: 70px; 
+    padding: 50px 100px;
+    text-align: justify;
+    color: #fff;
+}
+.happy{
+    color: #ecbd47;
+    font-weight: 500;
+
+}
+.feliimg {
+     height: 400px;
+     margin-top: 20px;
+     display: flex;
+      /* padding: 40px 200px; */
+      text-align: center;
+}
+.temi{
+    color: #ecbd47;
+    font-weight: 500
+}
+.temi1{
+    font-weight: 800;
+    width: 900px;
+}
+.feli{
+    display: flex;
+     gap: 70px; 
+    /* padding: 50px 100px; */
+    text-align: justify;
+    color: #fff;
+}
+hr{
+    border:2px solid ;
+    /* width: 1200px; */
+    margin-top: 30px;
+    border-color: #ecbd47;
+    margin: auto;
+}
+
+.drink{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.lists{
+    font-size:35px ;
+    color: #ecbd47;
+    display: flex;
+    justify-content: space-between;
+    /* list-style: none; */
+}
+.list{
+    list-style: none;
+}
+.color{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.price{
+    margin-top: 10px;
+    padding: 0;
+    transition: max-height 0.3s ease;
+    list-style: none;
+    display: none; 
+}
+.price.show{
+    display: block; 
+}
+.small{
+    cursor: pointer;
+}
+.hr2{
+    border:2px solid ;
+    /* width: 1200px; */
+    margin-top: 30px;
+    border-color: #ecbd47;
+    margin: auto;
+}
+.all{
+    font-size:30px ;
+    color: #ecbd47;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.allu{
+    list-style: none;
+    cursor: pointer;
+}
+.food{
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+}
+.foodmenu{
+    display: flex;
+    gap: 50px; 
+   padding: 50px 100px;
+   text-align: justify;
+   color: #fff;
+}.look{
+    color: #ecbd47;
+    font-weight: 500; 
+}
+.lookp{
+    font-weight: 800;
+    /* width: 900px; */
+}
+.btn56{
+    border-radius:13px ;
+    padding: 10px;
+    background: none;
+    font-weight: 600;
+    border-color: #fff;
+    color: #fff;
+    cursor: pointer;
+    /* margin-left: 900px; */
+    border-color: #ecbd47;
+}
+.btn56:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-style: none;
+}
+
+@media (max-width:767px){
+    .text h1{
+        font-size:40px;
+    }
+    .text p{
+       width: 140px;
+       font-size: 13px;
+    }
+    .text{
+        padding: 200px 50px;
+    }
+    .btn{
+        padding: 20px;
+        margin-top: 10px;
+        border-radius: 50px;
+    }
+    .btnn{
+        border-radius: 50px;
+        padding: 20px;
+        margin-top:10px ;
+    }
+    .story{
+        display: block;
+        padding: 20px 0px;
+
+    }
+    .happy{
+      text-align: center;
+      font-size: 25px;
+    }
+
+    .happy25{
+        padding: 30px 0px;
+        text-align: justify;
+    }
+    .feliimg{
+    display: block;
+    }
+    .feli{
+        display: block;
+    }
+    .temi{
+        padding-top: 600px;
+        font-size: 30px;
+    }
+    .temi1{
+        width:100%;
+        margin-top: 20px;
+        line-height: 1.5;
+    }
+    .temip2{
+        margin-top: 10px;
+        padding-bottom: 40px;
+    }
+    /* .navbar1{
+       position: absolute;
+       top:0%;
+       left: 350%;
+       width: 100%;
+       padding: 1rem 3%;
+       background-color: red;
+       justify-content: right;
+       display: none;
+    } */
+    /* .navbar a{
+        display: none;
+        margin: 1rem 0;
+    }
+     */
+    .navbar1{
+        display: none;
+        position: absolute;
+        background-color: skyblue;
+        width: 150px;
+        flex-direction: column;
+        text-align: center;
+        right: 0%;
+        top: 40px;
+    }
+    .navbar2{
+      display: block;
+    }
+    .navbar1.active{
+      display: block;
+     }
+    
+}
+
+
+
+
+
+
+
+/* ========== Tablet View (768px and below) ========== */
+@media (max-width: 768px) {
+    .lists, .all, .foodmenu {
+        flex-direction: column;
+        /* align-items: center; */
+        gap: 20px;
+    }
+
+    .foodmenu {
+        padding: 30px 50px;
+    }
+
+    .drink{  
+       font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .food {
+        font-size: 24px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .lists, .all {
+        font-size: 28px;
+    }
+
+    .color {
+        font-size: 18px;
+    }
+
+    .btn56 {
+        margin-top: 20px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .lookp {
+        text-align: center;
+    }
+}
+
+/* ========== Mobile View (480px and below) ========== */
+@media (max-width: 480px) {
+    .drink, .food {
+        font-size: 20px;
+    }
+
+    .lists, .all {
+        font-size: 22px;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .foodmenu {
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .color {
+        font-size: 16px;
+    }
+
+    .btn56 {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .lookp {
+        font-size: 16px;
+        text-align: center;
+    }
+}
